@@ -61,6 +61,7 @@ a {
 
 .page__gradient{
     background: linear-gradient(186.86deg, #FAFFE2 0%, #F3EDFB 22.36%, #FFFFFF 100%);
+    overflow-x: hidden;
 }
 
 .gradient__text{
