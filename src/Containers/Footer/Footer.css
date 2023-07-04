@@ -241,9 +241,11 @@
     .footer__newsletter-content-input button{
         font-size: 12px;
         padding: 6px;
+    }    
+}
+
+@media screen and (max-width: 400px){
+    .footer-links-link-socials-container{
+        flex-direction: column;
     }
-
-    
-
-    
 }
