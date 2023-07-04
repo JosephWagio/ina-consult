@@ -248,4 +248,9 @@
     .footer-links-link-socials-container{
         flex-direction: column;
     }
+
+    .footer-links-link-socials-container .footer__links-links, 
+    .footer-links-link-socials-container .footer__links-socials{
+        margin: 10px 0;
+    }
 }
