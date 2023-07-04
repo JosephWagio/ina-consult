@@ -198,6 +198,7 @@
     .footer__links .col:not(.footer__links-content){
         width: calc((100% / 2) - 30px);
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -220,4 +221,8 @@
         font-size: 12px;
         padding: 6px;
     }
+
+    
+
+    
 }
