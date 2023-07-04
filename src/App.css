@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background: var(--color-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+    color: unset;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.gradient__bg{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(100deg, rgba(255, 255, 255, 1) 0%, rgba(216, 202, 255, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(100deg, rgba(255, 255, 255, 1) 0%, rgba(216, 202, 255, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(100deg, rgba(255, 255, 255, 1) 0%, rgba(216, 202, 255, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8CAFF', endColorstr='#FFFFFF', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(100deg, rgba(255, 255, 255, 1) 0%, rgba(216, 202, 255, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(100deg, rgba(255, 255, 255, 1) 0%, rgba(216, 202, 255, 1) 100%);
+
 }
 
-.App-link {
-  color: #61dafb;
+.gradient__2
+{
+
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(255, 223, 206, 1) 40%, rgba(216, 202, 255, 1) 96%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(255, 223, 206, 1) 40%, rgba(216, 202, 255, 1) 96%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(255, 223, 206, 1) 40%, rgba(216, 202, 255, 1) 96%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D8CAFF', endColorstr='#FFFFFF', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(255, 223, 206, 1) 40%, rgba(216, 202, 255, 1) 96%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(255, 223, 206, 1) 40%, rgba(216, 202, 255, 1) 96%);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.page__gradient{
+    background: linear-gradient(186.86deg, #FAFFE2 0%, #F3EDFB 22.36%, #FFFFFF 100%);
+}
+
+.gradient__text{
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clop: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section__padding {
+        padding: 4rem 2.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .section__padding{
+        padding: 4rem 2rem;
+    }
+
+    .section__margin{
+        margin: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__padding{
+        padding: 4rem 2rem;
+    }
+
+    .section__margin{
+        margin: 4rem 2rem;
+    }
 }

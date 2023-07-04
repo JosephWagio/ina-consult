@@ -1,0 +1,40 @@
+*{
+    font-family: var(--font-family);
+}
+
+.blog-container_article{
+    background-color: #fff;
+    border: 1px;
+    border-radius: 5px;
+    padding: 20px 30px 20px 30px;
+}
+
+.blog-container_article-image{
+    margin-bottom: 5px;
+}
+
+.blog-container_article-image i{
+    font-size: 30px;
+}
+
+.blog-container_article-content div h4{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.blog-container_article-content div p {
+    font-size: 11px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--color-text);
+}
+
+.blog-container_article-content p{
+    font-size: 11px;
+    color: #764af1;
+    cursor: pointer;
+}
+
+.blog-container_article-content p:hover {
+    color: var(--color-footer);
+}

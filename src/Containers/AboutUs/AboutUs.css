@@ -1,0 +1,138 @@
+.aboutus {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+}
+
+.aboutus-image {
+    
+
+    margin-right: 2rem;
+    width: 50%;
+}
+
+.aboutus-image img {
+    width: 100%;
+    height: auto;
+}
+
+.aboutus-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 50%;
+}
+
+.aboutus-content h4 {
+    font-family: var(--font-family);
+    color: #764af1;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.aboutus-content h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    margin: .5rem 0rem;
+}
+
+.aboutus-content p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: .5rem;
+}
+
+.counter {
+    display: flex;
+    margin-top: 4rem;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+
+.counter > * {
+    width: calc((100% / 3) - 10px);
+    margin: 0 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin: 10px 50px 20px 0px; */
+    padding: 30px 15px;
+    border-radius: 10px;
+    
+}
+
+.counter > * h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+
+.counter > * p {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: initial !important;
+    text-align: center;
+}
+
+.exp {
+    background-color: #E1EDFF;
+}
+
+.exp h3 {
+    color: #764af1;
+}
+
+.visa {
+    background-color: #FFEAD2;    
+}
+
+.visa h3 {
+    color: #FFB55E;
+}
+
+.admission {
+    background-color: #FFDCDC;    
+}
+
+.admission h3 {
+    color: #FF0202;
+}
+
+@media screen and (max-width: 1024px)  {
+    
+    .aboutus-content h1 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px)  {
+    
+    .aboutus {
+        flex-direction: column;
+    }
+    .aboutus-image{
+        width: 100%;
+    }
+    .aboutus-content{
+        width: 100%;
+        margin-top: 30px;
+    }
+}

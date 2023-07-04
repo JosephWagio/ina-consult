@@ -1,0 +1,218 @@
+.footer {
+    background: #1A1121;
+}
+
+.footer__newsletter {
+    display: flex;
+}
+
+.footer__newsletter-content {
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.footer__newsletter-content-img img {
+    margin: 1rem;
+    padding: 1.5rem;
+    width: 110px;
+    height: 110px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #764af1;
+}
+
+.footer__newsletter-content-text {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 1rem;
+    margin-right: 6rem; */
+}
+
+.footer__newsletter-content-text h2 {
+    font-family: var(--font-family);
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.footer__newsletter-content-text p {
+    /* width: 300px; */
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 16;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+.footer__newsletter-content-input {
+    margin-left: 50px;
+    display: flex;
+    width: 55%;
+    align-items: center;
+}
+
+.footer__newsletter-content-input input {
+    display: block;
+    width: 70%;
+    padding: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    height: 80px;
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer__newsletter-content-input i {
+    margin: .5rem;
+}
+
+.footer__newsletter-content-input button {
+    height: 80px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 30%;
+    background-color: #F32424;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    padding: 0 10px;
+}
+
+.line3 {
+    width: 100%;
+    height: 1px;
+    background: var(--color-text);
+    margin: 2rem 0;
+}
+
+.footer__links {
+    display: flex;
+}
+
+.footer__links .col{
+    width: calc((100% / 3) - 30px);
+    margin: 0 15px;
+}
+
+.footer__links p,
+.footer__links h2 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.footer__links-content {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.footer__links-content h2 {
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+.footer__links-content p {
+    color: var(--color-text);
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 30px;
+
+    display: flex;
+    width: 265px;
+    flex-direction: column;
+}
+
+.footer__links-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links-links h2 {
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+.footer__links-links p {
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.footer__links-socials h2 {
+    font-size: 24px;
+    font-family: var(--font-family);
+    font-weight: 700;
+}
+
+.footer__links-socials p {
+    display: flex;
+    align-items: center;
+}
+
+.footer__links-socials p img {
+    padding: 5px;
+    border-radius: 50%;
+    background: #764af1;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.footer__copyright {
+    font-family: var(--font-family);
+    color: var(--color-text);
+    margin-left: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__links{
+        flex-wrap: wrap;
+    }
+    .footer__links .footer__links-content{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .footer__links .col:not(.footer__links-content){
+        width: calc((100% / 2) - 30px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .footer__newsletter {
+        flex-direction: column;
+    }
+
+    .footer__newsletter-content{
+        width: 100%;
+    }
+
+    .footer__newsletter-content-input{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,33 @@
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.testimonials_heading {
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials_heading h4 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
+    margin-bottom: .7rem;
+    color: #764af1;
+}
+
+.testimonials_heading h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 1rem;
+}
+
+.testimonials_posts {
+    /* align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+}

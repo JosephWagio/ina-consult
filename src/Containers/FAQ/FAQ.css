@@ -1,0 +1,86 @@
+.faq {
+    display: flex;
+    flex-direction: row;
+    background: #F4EFF8;
+    gap: 30px;
+}
+
+.faq-content {
+    width: 40%;
+}
+
+.faq-content h4 {
+    color: #764af1;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: .7rem;
+}
+
+.faq-content h2 {
+    /* width: 455px; */
+    color: #000;
+    font-size: 34px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.line2 {
+    margin: 2.5rem 0;
+    width: 100px;
+    height: 2px;
+    padding: 1px;
+    /* border-radius: 5px; */
+    background: #764af1;
+}
+
+.faq-content p {
+    display: flex;
+    font-size: 22px;
+    line-height: 1.67;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.faq-content button {
+    padding: 1.5rem 2rem;
+    background: #fff;
+    color: #764af1;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #E4E4E4;
+    border-radius: 15px;
+}
+
+.faq-content button:hover {
+    -webkit-transition: all ease-in-out .3s;
+    transition: all ease-in-out .3s;
+    background-color: #764af1;
+    color: #fff;
+}
+
+.accordion{
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .faq {
+        flex-direction: column;
+    }
+
+    .faq-content{
+        width: 100%;
+    }
+
+    .accordion{
+        width: 100%;
+    }
+}

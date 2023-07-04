@@ -1,0 +1,45 @@
+.accordion .active {
+    display: block;
+}
+
+.faq_accordion .inactive {
+    display: none;
+}
+
+.faq_accordion-content {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.faq_accordion-question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.faq_accordion-question h3 {
+    color: #000;
+    font-size: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    line-height: 30px;
+    display: block;
+}
+
+.faq_accordion-icon {
+    margin-left: 6rem;
+}
+
+.faq_accordion-answer p {
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    display: none;
+}
