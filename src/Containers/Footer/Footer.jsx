@@ -35,18 +35,20 @@ const Footer = () => {
           <h2>Nolani consult</h2>
           <p>"Unlocking Potential, Igniting Success: Empowering Minds, Transforming Futures."</p>
         </div>
-        <div className='footer__links-links col'>
-          <h2>Links</h2>
-          <p><a href="home">Home</a></p>
-          <p><a href="aboutus">About</a></p>
-          <p><a href="testimonials">Testimonials</a></p>
-          <p><a href="faq">FAQ</a></p>
-        </div>
-        <div className='footer__links-socials col'>
-          <h2>Contact Us</h2>
-          <p><img src={whatsapp} alt="whatsapp" /> 08020304080</p>
-          <p><img src={instagram} alt="instagram" /> @example </p>
-          <p><img src={mail} alt="email" /> example@gmail.com </p>
+        <div className="footer-links-link-socials-container">
+           <div className='footer__links-links col'>
+            <h2>Links</h2>
+            <p><a href="home">Home</a></p>
+            <p><a href="aboutus">About</a></p>
+            <p><a href="testimonials">Testimonials</a></p>
+            <p><a href="faq">FAQ</a></p>
+          </div>
+          <div className='footer__links-socials col'>
+            <h2>Contact Us</h2>
+            <p><img src={whatsapp} alt="whatsapp" /> 08020304080</p>
+            <p><img src={instagram} alt="instagram" /> @example </p>
+            <p><img src={mail} alt="email" /> example@gmail.com </p>
+          </div>
         </div>
       </div>
 
