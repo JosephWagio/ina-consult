@@ -24,43 +24,10 @@ const Destinations = () => {
       </div>
 
       <div className='destinations-countries'>
-        <Swiper
-          slidesPerView={4}
-          spaceBetween={30}
-          autoplay={true}
-          modules={[Autoplay]} 
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
-            480: {
-              slidesPerView: 2,
-            },
-            768: {
-              slidesPerView: 3,
-            },
-            1024: {
-              slidesPerView: 4
-            }
-          }}
-          className="mySwiper3"
-        >
-          <div>
-            <SwiperSlide>
-              <Countries Img={Europe} title={"Europe/eea"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Countries Img={USA} title={"USA"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Countries Img={Canada} title={"Canada"} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Countries Img={Australia} title={"Australia/New Zealand"} />
-            </SwiperSlide>
-            {/* <SwiperSlide></SwiperSlide> */}
-          </div>
-        </Swiper>    
+        <Countries Img={Europe} title={"Europe/eea"} />
+        <Countries Img={USA} title={"USA"} />
+        <Countries Img={Canada} title={"Canada"} />
+        <Countries Img={Australia} title={"Australia/New Zealand"} />
       </div>
     </div>
   )
