@@ -36,7 +36,7 @@
 
     margin-right: 1rem;
     padding: 5px;
-    border-radius: 500px;
+    border-radius: 50%;
     background-color: #764af1;
 
 }
@@ -45,10 +45,11 @@
     color: var(--color-text);
     font-family: var(--font-family);
     font-size: 14px; 
+    font-weight: 500;
 }
 
 .line {
-    width: 268px;
+    width: 200px;
     height: 2px;
     margin: 2rem 0 2rem 2rem;
     padding: 1px;
@@ -77,3 +78,59 @@
 .posts:hover {
     box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 1024px) {
+    .line {
+        width: 235px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 425px) {
+    .posts_comment-text P {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .posts_profile {
+        align-items: center;
+    }
+
+    .posts_profile-img img {
+        width: 50px;
+        height: 50px;
+        margin-right: .5rem;
+        margin-top: .3rem;
+    }
+
+    .posts_comment-text {
+        margin-top: .4rem;
+    }
+
+    .posts_comment-title {
+        margin-bottom: 1rem;
+    }
+
+    .posts_comment-text p:last-child {
+        width: 230px !important ;
+    }
+
+    .line {
+        margin: 2rem 0 1rem 2rem ;
+    }
+
+    .star img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .quote {
+        width: 18px;
+        height: 18px;
+        font-weight: 600;
+    }
+}
+

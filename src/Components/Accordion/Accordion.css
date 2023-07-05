@@ -43,3 +43,39 @@
     font-weight: 400;
     display: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .faq_accordion-question h3 {
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .faq_accordion-answer p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .faq_accordion-question h3 {
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .faq_accordion-answer p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .faq_accordion-question h3 {
+        line-height: 20px;
+        font-size: 15px;
+    }
+
+    .faq_accordion-answer p {
+        line-height: 18px;
+        font-weight: 400;
+    }
+}

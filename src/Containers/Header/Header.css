@@ -109,5 +109,6 @@
     .header-content__apply button {
         font-size: 12px;
         line-height: 16px;
+        padding: 28px 35px 28px;
     }
 }

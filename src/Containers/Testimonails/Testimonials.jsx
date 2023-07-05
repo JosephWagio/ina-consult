@@ -24,7 +24,7 @@ const Testimonials = () => {
       <div className='testimonials_posts'>
         <Swiper
           slidesPerView={3}
-          spaceBetween={30}
+          spaceBetween={15}
           autoplay={true}
           modules={[Autoplay]}
           breakpoints={{
@@ -34,7 +34,7 @@ const Testimonials = () => {
             480: {
               slidesPerView: 1,
             },
-            768: {
+            730: {
               slidesPerView: 2,
             },
             1024: {
@@ -43,7 +43,6 @@ const Testimonials = () => {
           }}
           className="mySwiper2"
         >
-          <div>
             <SwiperSlide>
               <Posts title={"Great Platform"} comment={"The exceptional service provided by this platform is truly remarkable! With its user-friendly interface, comprehensive features, and top-notch customer support, it has significantly enhanced my experience. I can't recommend it highly enough!"} img={student01} name={"Joe Rogan"} />
             </SwiperSlide>
@@ -56,7 +55,6 @@ const Testimonials = () => {
             <SwiperSlide>
               <Posts title={"Great Platform 4"} comment={"The exceptional service provided by this platform is truly remarkable! With its user-friendly interface, comprehensive features, and top-notch customer support, it has significantly enhanced my experience. I can't recommend it highly enough!"} img={student01} name={"Joe Rogan"} />
             </SwiperSlide>
-          </div>
         </Swiper>
       </div>
     </div>

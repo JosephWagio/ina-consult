@@ -8,3 +8,20 @@
 .countries img {
     border-radius: 500px;
 }
+
+/* @media screen and (max-width: 400px) {
+    .countries {
+        margin: .7rem;
+        padding: 15px;
+    }
+
+    .countries img {
+        width: 100px;
+        height: 100%;
+    }
+
+    .countries h3 {
+        font-size: 20px;
+    }
+} */
+

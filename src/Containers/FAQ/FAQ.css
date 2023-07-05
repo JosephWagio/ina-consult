@@ -80,6 +80,18 @@
         width: 100%;
     }
 
+    .faq-content h2 {
+        font-weight: 450;
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .faq-content p{
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 550;
+    }
+
     .accordion{
         width: 100%;
     }

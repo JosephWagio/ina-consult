@@ -121,8 +121,6 @@
     }
 }
 
-
-
 @media screen and (max-width: 768px)  {
     
     .aboutus {
@@ -134,5 +132,31 @@
     .aboutus-content{
         width: 100%;
         margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 400px)  {
+    .aboutus-content h4 {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .aboutus-content h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .aboutus-content p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .counter > * h3 {
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .counter > * p {
+        font-weight: 700;
+        font-size: 8px;
+        line-height: 10px !important;
     }
 }

@@ -38,7 +38,6 @@
 }
 
 .footer__newsletter-content-text p {
-    /* width: 300px; */
     font-family: var(--font-family);
     color: var(--color-text);
     font-size: 16;
@@ -252,5 +251,14 @@
     .footer-links-link-socials-container .footer__links-links, 
     .footer-links-link-socials-container .footer__links-socials{
         margin: 10px 0;
+    }
+    .footer__newsletter-content-text h2 {
+        font-weight: 400;
+        line-height: .8;   
+    }
+    .footer__newsletter-content-text p {
+        font-size: 12;
+        line-height: 1;
+        font-weight: 300;
     }
 }

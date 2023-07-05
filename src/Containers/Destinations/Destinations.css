@@ -30,3 +30,31 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
 }
+
+@media screen and (max-width: 1020px) {
+    .destinations-countries {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .destinations-countries {
+        grid-template-columns: 1fr;
+        gap: .5rem
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .destinations-content h1{
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    .destinations-content p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+}
+
+
+
